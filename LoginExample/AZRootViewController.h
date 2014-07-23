@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AZRootViewController : UIViewController <UIPageViewControllerDelegate>
+@interface AZRootViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *user_txt;
+@property (weak, nonatomic) IBOutlet UITextField *pass_txt;
+- (IBAction)click_send:(id)sender;
 
-@property (strong, nonatomic) UIPageViewController *pageViewController;
+- (IBAction)backTap:(id)sender;
 
 @end

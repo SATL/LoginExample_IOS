@@ -14,16 +14,16 @@
 		659BF2AF197E1F5E002306F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2AE197E1F5E002306F1 /* main.m */; };
 		659BF2B3197E1F5E002306F1 /* AZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2B2197E1F5E002306F1 /* AZAppDelegate.m */; };
 		659BF2B6197E1F5E002306F1 /* AZRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2B5197E1F5E002306F1 /* AZRootViewController.m */; };
-		659BF2B9197E1F5E002306F1 /* AZDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2B8197E1F5E002306F1 /* AZDataViewController.m */; };
-		659BF2BC197E1F5E002306F1 /* AZModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2BB197E1F5E002306F1 /* AZModelController.m */; };
 		659BF2BF197E1F5E002306F1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659BF2BD197E1F5E002306F1 /* Main_iPhone.storyboard */; };
-		659BF2C2197E1F5E002306F1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659BF2C0197E1F5E002306F1 /* Main_iPad.storyboard */; };
 		659BF2C4197E1F5E002306F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659BF2C3197E1F5E002306F1 /* Images.xcassets */; };
 		659BF2CB197E1F5E002306F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659BF2CA197E1F5E002306F1 /* XCTest.framework */; };
 		659BF2CC197E1F5E002306F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659BF2A2197E1F5E002306F1 /* Foundation.framework */; };
 		659BF2CD197E1F5E002306F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659BF2A6197E1F5E002306F1 /* UIKit.framework */; };
 		659BF2D5197E1F5E002306F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 659BF2D3197E1F5E002306F1 /* InfoPlist.strings */; };
 		659BF2D7197E1F5E002306F1 /* LoginExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2D6197E1F5E002306F1 /* LoginExampleTests.m */; };
+		659BF2E3197E2004002306F1 /* AppLauncher.png in Resources */ = {isa = PBXBuildFile; fileRef = 659BF2E2197E2004002306F1 /* AppLauncher.png */; };
+		659BF2E5197E203B002306F1 /* LOOKING1.png in Resources */ = {isa = PBXBuildFile; fileRef = 659BF2E4197E203B002306F1 /* LOOKING1.png */; };
+		659BF2E9197E2213002306F1 /* AZLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 659BF2E8197E2213002306F1 /* AZLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +49,17 @@
 		659BF2B2197E1F5E002306F1 /* AZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZAppDelegate.m; sourceTree = "<group>"; };
 		659BF2B4197E1F5E002306F1 /* AZRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZRootViewController.h; sourceTree = "<group>"; };
 		659BF2B5197E1F5E002306F1 /* AZRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZRootViewController.m; sourceTree = "<group>"; };
-		659BF2B7197E1F5E002306F1 /* AZDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZDataViewController.h; sourceTree = "<group>"; };
-		659BF2B8197E1F5E002306F1 /* AZDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZDataViewController.m; sourceTree = "<group>"; };
-		659BF2BA197E1F5E002306F1 /* AZModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZModelController.h; sourceTree = "<group>"; };
-		659BF2BB197E1F5E002306F1 /* AZModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZModelController.m; sourceTree = "<group>"; };
 		659BF2BE197E1F5E002306F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		659BF2C1197E1F5E002306F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		659BF2C3197E1F5E002306F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		659BF2C9197E1F5E002306F1 /* LoginExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659BF2CA197E1F5E002306F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		659BF2D2197E1F5E002306F1 /* LoginExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginExampleTests-Info.plist"; sourceTree = "<group>"; };
 		659BF2D4197E1F5E002306F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		659BF2D6197E1F5E002306F1 /* LoginExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginExampleTests.m; sourceTree = "<group>"; };
+		659BF2E2197E2004002306F1 /* AppLauncher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLauncher.png; sourceTree = "<group>"; };
+		659BF2E4197E203B002306F1 /* LOOKING1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOOKING1.png; sourceTree = "<group>"; };
+		659BF2E7197E2213002306F1 /* AZLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZLine.h; sourceTree = "<group>"; };
+		659BF2E8197E2213002306F1 /* AZLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,16 +119,13 @@
 		659BF2A8197E1F5E002306F1 /* LoginExample */ = {
 			isa = PBXGroup;
 			children = (
+				659BF2E6197E21F7002306F1 /* View */,
+				659BF2E1197E1FF0002306F1 /* Images */,
 				659BF2B1197E1F5E002306F1 /* AZAppDelegate.h */,
 				659BF2B2197E1F5E002306F1 /* AZAppDelegate.m */,
 				659BF2B4197E1F5E002306F1 /* AZRootViewController.h */,
 				659BF2B5197E1F5E002306F1 /* AZRootViewController.m */,
-				659BF2B7197E1F5E002306F1 /* AZDataViewController.h */,
-				659BF2B8197E1F5E002306F1 /* AZDataViewController.m */,
-				659BF2BA197E1F5E002306F1 /* AZModelController.h */,
-				659BF2BB197E1F5E002306F1 /* AZModelController.m */,
 				659BF2BD197E1F5E002306F1 /* Main_iPhone.storyboard */,
-				659BF2C0197E1F5E002306F1 /* Main_iPad.storyboard */,
 				659BF2C3197E1F5E002306F1 /* Images.xcassets */,
 				659BF2A9197E1F5E002306F1 /* Supporting Files */,
 			);
@@ -163,6 +159,24 @@
 				659BF2D3197E1F5E002306F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		659BF2E1197E1FF0002306F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				659BF2E4197E203B002306F1 /* LOOKING1.png */,
+				659BF2E2197E2004002306F1 /* AppLauncher.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		659BF2E6197E21F7002306F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				659BF2E7197E2213002306F1 /* AZLine.h */,
+				659BF2E8197E2213002306F1 /* AZLine.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659BF2C2197E1F5E002306F1 /* Main_iPad.storyboard in Resources */,
+				659BF2E3197E2004002306F1 /* AppLauncher.png in Resources */,
 				659BF2C4197E1F5E002306F1 /* Images.xcassets in Resources */,
+				659BF2E5197E203B002306F1 /* LOOKING1.png in Resources */,
 				659BF2BF197E1F5E002306F1 /* Main_iPhone.storyboard in Resources */,
 				659BF2AD197E1F5E002306F1 /* InfoPlist.strings in Resources */,
 			);
@@ -265,9 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				659BF2AF197E1F5E002306F1 /* main.m in Sources */,
-				659BF2B9197E1F5E002306F1 /* AZDataViewController.m in Sources */,
+				659BF2E9197E2213002306F1 /* AZLine.m in Sources */,
 				659BF2B6197E1F5E002306F1 /* AZRootViewController.m in Sources */,
-				659BF2BC197E1F5E002306F1 /* AZModelController.m in Sources */,
 				659BF2B3197E1F5E002306F1 /* AZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +319,6 @@
 				659BF2BE197E1F5E002306F1 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		659BF2C0197E1F5E002306F1 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				659BF2C1197E1F5E002306F1 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		659BF2D3197E1F5E002306F1 /* InfoPlist.strings */ = {
@@ -483,6 +489,7 @@
 				659BF2DC197E1F5E002306F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		659BF2DD197E1F5E002306F1 /* Build configuration list for PBXNativeTarget "LoginExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +498,7 @@
 				659BF2DF197E1F5E002306F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
